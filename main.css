@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+
+.casino-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  height: 150px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.casino-info {
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+}
+
+.info-wrapper {
+  margin-left: 10px;
+  max-width: 100%;
+}
+
+.free-spins-btn,
+.deposit-bonus-btn {
+  max-width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+h1,
+h2 {
+  margin-left: 270px;
+}
+h1 {
+  top: 50px;
+  left: 610px;
+  width: 700px;
+  height: 38px;
+  text-align: left;
+  font: normal normal bold 28px/32px Roboto;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+}
+
+h2 {
+  top: 108px;
+  left: 610px;
+  width: 586px;
+  height: 24px;
+  text-align: left;
+  font: normal normal bold 18px/24px Roboto;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+}
+
+.casino-name {
+  font: normal normal normal 15px/18px Roboto;
+  letter-spacing: 0px;
+  color: #429bf4;
+  opacity: 1;
+  top: 90px;
+}
+
+.casino-flag {
+  width: 24px;
+  height: 17px;
+  position: relative;
+  top: 90px;
+  left: 15px;
+  bottom: 0px;
+}
+.rating-stars {
+  display: flex;
+  margin-left: 60px;
+  bottom: 90px;
+}
+
+/*.rating {
+
+} */
+
+.bonus-info {
+  align-items: center;
+
+  margin-left: 280px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.free-spins-btn,
+.deposit-bonus-btn {
+  background-color: #f3f3f3;
+  color: #868686;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.free-spins-btn:hover,
+.deposit-bonus-btn:hover {
+  background-color: #daecfe;
+}
+.free-spins-btn {
+  font: normal normal normal 13px/20px Roboto;
+
+  border-radius: 20px;
+  opacity: 1;
+  margin-left: 15px;
+}
+
+.deposit-bonus-btn {
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  opacity: 1;
+
+  font: normal normal normal 13px/20px Roboto;
+}
+
+.new-label {
+  margin-bottom: 40px;
+  color: #68cb6c;
+  border: 2px solid #68cb6c;
+  border-radius: 5px;
+  padding: 2px 5px;
+
+  top: 0px;
+  left: 60px;
+}
+
+.visit-btn {
+  background-color: #3082d4;
+  text-transform: uppercase;
+  padding: 7px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font: normal normal normal 11px/20px Roboto;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.load-more {
+  text-align: center;
+  font: normal normal normal 14px/18px Roboto;
+  letter-spacing: 0px;
+  color: #429bf4;
+  opacity: 1;
+
+  top: 563px;
+  left: 610px;
+  width: 700px;
+  height: 46px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #429bf4;
+  border-radius: 23px;
+  margin-left: 390px;
+}
+
+.load-more:hover {
+  background-color: #429bf4;
+  cursor: pointer;
+}
+
+.modal-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  font-size: 30px;
+  color: #888;
+  cursor: pointer;
+
+  width: 30px;
+  height: 30px;
+}
+
+.modal {
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+  text-align: center;
+}
